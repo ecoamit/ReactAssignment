@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to right, #3cd3ad, #4cb8c4);
+}
+
+header {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  margin: 25px;
+}
+.container {
+  width: max-content;
+  margin: 100px auto;
+  background: #9e9090;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4), 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.container input {
+  background: transparent;
+  border: 0;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+}
+input::placeholder {
+  color: #fff;
+}
+.error {
+  display: none;
+  width: fit-content;
+  color: red;
+}
+.dropdownList {
+  border-top: 2px solid #999;
+}
+.dropdownList > div {
+  padding: 15px;
+  font-size: 20px;
+  color: #fff;
+  border-top: 1px solid #666;
+  cursor: pointer;
+}
+.dropdownList > div:hover {
+  background-color: #1e4dd4;
+}
